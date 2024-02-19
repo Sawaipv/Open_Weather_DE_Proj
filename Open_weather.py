@@ -54,7 +54,7 @@ def get_weather_data(api_key, cities):
 
 if __name__ == "__main__":
     # Replace 'YOUR_API_KEY' with your actual API key from OpenWeather
-    api_key = "415eadbf15ec4bd22e8290c01deb6222"
+    api_key = "YOUR_API_KEY"
     cities = ["Mumbai", "London", "New York", "Tokyo", "Sydney", "Paris", "Berlin", "Moscow", "Singapore", "Dubai"]
     
     weather_df = get_weather_data(api_key, cities)
